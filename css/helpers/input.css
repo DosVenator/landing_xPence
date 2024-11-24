@@ -1,0 +1,73 @@
+.container.container_input--title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.46px;
+    text-align: center;
+    padding: 0;
+    
+    }
+    .container.container_input {
+        margin-top: 55px;
+        justify-content: center;
+        display: grid;
+        grid-template-areas: 
+        "g_1 g_2"
+        "g_3 g_4"
+        "g_5 g_5";
+        grid-template-columns: 290px 290px;
+        grid-template-rows: 49px 49px 135px;
+        gap: 12px;
+    }
+    .input_1 {
+        grid-area: g_1;
+        border-radius: 4px;
+        border: 1px solid black;
+    
+    }
+    .input_2 {
+        grid-area: g_2;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    .input_3 {
+        grid-area: g_3;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    .input_4 {
+        grid-area: g_4;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    #input_5 {
+        grid-area: g_5;
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    #check {
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
+    }
+    .container.container_input--footer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.87px;
+    text-align: left;
+    width: 592px;
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    }
+    .container.container_input--btn {
+        margin-top: 22px;
+        display: flex;
+        width: 592px;
+        justify-content: center;
+        padding: 0;
+    }
+    .input_5::placeholder {
+    align-items: start;
+    
+    }
+    

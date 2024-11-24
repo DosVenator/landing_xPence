@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AOS</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/helpers/media.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="burge_menu">
+				<nav class="nav burger">
+					<ul class="nav__list--burg">
+						<li class="nav__item burger">
+							<a href="#" class="nav__link">Features </a>
+						</li>
+						<li class="nav__item burger">
+							<a href="#" class="nav__link burger"> About us</a>
+						</li>
+						<li class="nav__item burger">
+							<a href="#" class="nav__link burger"> Pricing</a>
+						</li>
+						<li class="nav__item burger">
+							<a href="#" class="nav__link burger"> Feedback</a>
+						</li>
+					</ul>
+					<div class="header__btn">
+						<button href="#" data-popup-button="popup_1" class="btn_base btn_base--white btn_base--burger"> Request a demo </button>
+					</div>
+				</nav>
+			</div>
+			<header class="header">
+				<button class="menu_button"></button>
+				<div class="header__in container">
+					<a href="#" class="logo">
+						<img loading="lazy" src="./imgs/Logo.svg" alt="" class="logo__img" />
+					</a>
+					<nav class="nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Features </a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> About us</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Pricing</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Feedback</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__btn">
+						<button href="#" data-popup-button="popup_1"  class="btn_base btn_base--white"> Request a demo </button>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="section section--hero">
+					<div class="container">
+						<div class="content">
+							<div data-aos="fade-right" data-aos-duration="1000" class="content__col">
+								<div class="content_info">
+									<h1 class="section__title">Track your Expenses & Save Money</h1>
+									<div class="section__descr">Helps you to organize your income and expenses</div>
+									<div class="content_info__footer">
+										<a href="#" class="btn_base btn_base--primary btn_base--hero">
+											Try free demo
+										</a>
+										<span class="content_info__btn_descr"> — Web, iOS and Android </span>
+									</div>
+								</div>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" class="content__col">
+								<div class="content_picture">
+									<img
+										loading="lazy"
+										src="./imgs/hero_picture.svg"
+										alt="Hero picture"
+										class="content_picture__img"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- <div class="section section--no_bottom_padding section--bg">
+					<div class="container">
+						<div class="overview">
+							<img
+								loading="lazy"
+								src="./imgs/overview_img.jpg"
+								alt="Overview image"
+								class="overview__img"
+							/>
+						</div>
+					</div>
+				</div> -->
+				<div class="section section--no_bottom_padding section--bg">
+					<div class="container">
+						<div class="overview_2"></div>
+					</div>
+				</div>
+				<section class="section">
+					<div class="container">
+						<div class="content">
+							<div data-aos="fade-right" data-aos-duration="1000" class="content__col">
+								<div class="content_info">
+									<div class="section__subtitle">Always online</div>
+									<h2 class="section__title">Real-time support with cloud</h2>
+									<div class="section__descr">
+										Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi,
+										tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
+									</div>
+									<div class="content_info__footer">
+										<a href="#" class="content_link">
+											Learn more
+											<span class="content_link__icon">
+												<svg
+													class="content_link__icon_svg"
+													width="18"
+													height="16"
+													viewBox="0 0 18 16"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M1 8H17"
+														stroke="currentColor"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+													<path
+														d="M10 1L17 8L10 15"
+														stroke="currentColor"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" class="content__col">
+								<div class="content_picture">
+									<img
+										loading="lazy"
+										src="./imgs/support_img.svg"
+										alt="Support piocture"
+										class="content_picture__img"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section section--bg_color">
+					<div class="container">
+						<div class="content">
+							<div data-aos="fade-right" data-aos-duration="1000" class="content__col">
+								<div class="content_picture">
+									<img
+										loading="lazy"
+										src="./imgs/save_img.svg"
+										alt="Support picture"
+										class="content_picture__img"
+									/>
+								</div>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" class="content__col">
+								<div class="content_info">
+									<div class="section__subtitle">Free some cost</div>
+									<h2 class="section__title">Save cost for you and family</h2>
+									<div class="section__descr">
+										Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi,
+										tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
+									</div>
+									<div class="content_info__footer">
+										<a href="#" class="content_link content_link--2"> Learn more </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section">
+					<div class="container">
+						<div class="content">
+							<div data-aos="fade-right" data-aos-duration="1000" class="content__col">
+								<div class="content_info">
+									<div class="section__subtitle">Use anytime</div>
+									<h2 class="section__title">Use anytime when you need</h2>
+									<div class="section__descr">
+										Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim accumsan nisi,
+										tincidunt vel. Enim ipsum, amet quis ullamcorper eget ut.
+									</div>
+									<div class="content_info__footer">
+										<a href="#" class="content_link content_link--3"> Learn more </a>
+									</div>
+								</div>
+							</div>
+							<div data-aos="fade-left" data-aos-duration="1000" class="content__col">
+								<div class="content_picture">
+									<img
+										loading="lazy"
+										src="./imgs/use_img.svg"
+										alt="Use picture"
+										class="content_picture__img"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section">
+					<div class="container">
+						<div class="product">
+							<div  data-aos="fade-right" data-aos-duration="1000" class="product__head">
+								<h2 class="product__title section__title">The Product we work with.</h2>
+								<div class="product__descr section__descr">
+									Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi,
+									tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.
+								</div>
+							</div>
+
+							<div class="product__content">
+								<div data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="500" class="product_item">
+									<div class="product_item__in">
+										<div class="product_item__icon_w">
+											<div class="product_item__icon product_item__icon--platform"></div>
+										</div>
+										<h3 class="product_item__title">Cross platform</h3>
+										<div class="product_item__descr">
+											Elit esse cillum dolore eu fugiat nulla pariatur
+										</div>
+										<a href="#" class="product_item__arrow">
+											<div class="product_item__arrow_icon"></div>
+										</a>
+									</div>
+								</div>
+								<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="product_item">
+									<div class="product_item__in">
+										<div class="product_item__icon_w">
+											<div class="product_item__icon product_item__icon--cloud"></div>
+										</div>
+										<h3 class="product_item__title">Cloud server</h3>
+										<div class="product_item__descr">
+											Elit esse cillum dolore eu fugiat nulla pariatur
+										</div>
+										<a href="#" class="product_item__arrow">
+											<div class="product_item__arrow_icon"></div>
+										</a>
+									</div>
+								</div>
+								<div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="500" class="product_item">
+									<div class="product_item__in">
+										<div class="product_item__icon_w">
+											<div class="product_item__icon product_item__icon--js"></div>
+										</div>
+										<h3 class="product_item__title">Pure Javascript</h3>
+										<div class="product_item__descr">
+											Elit esse cillum dolore eu fugiat nulla pariatur
+										</div>
+										<a href="#" class="product_item__arrow">
+											<div class="product_item__arrow_icon"></div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section--bg_color">
+					<div class="container">
+						<h2 class="section__title section__title--offset section__title--center section__title--size">
+							Choose your flexible plan.
+						</h2>
+						<div class="plan">
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="btn_base btn_base--white" href="#">Get this</a>
+								</div>
+							</div>
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="btn_base btn_base--white" href="#">Get this</a>
+								</div>
+							</div>
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="btn_base btn_base--white" href="#">Get this</a>
+								</div>
+							</div>
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="btn_base btn_base--white" href="#">Get this</a>
+								</div>
+							</div>
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="plan_item__btn btn_base btn_base--white" href="#"
+										>Get this<span></span
+									></a>
+								</div>
+							</div>
+							<div data-aos="fade-up"
+							data-aos-duration="3000" class="plan_item" data-aos-delay="500">
+								<div class="plan_item__icon_w">
+									<img class="plan_item__icon" src="./imgs/plan_icon_1.svg" alt="Plan icon" />
+								</div>
+								<h3 class="plan_item__title">Starter Plan</h3>
+								<ul class="plan_item__list">
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+									<li class="plan_item__list_item">Store unlimited data</li>
+								</ul>
+								<div class="plan_item__price_w">
+									<div class="plan_item__price">$9.99/<span>year</span></div>
+									<div class="plan_item__discount">up to 3 user + 1.99 per user</div>
+								</div>
+								<div class="plan_item__btn_w">
+									<a class="btn_base btn_base--white" href="#">Get this</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section">
+					<div class="container">
+						<h2 class="section__title section__title--offset section__title--center section__title--size">
+							Shop by categories
+						</h2>
+						<div class="grid">
+							<div class="grid__item" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/1.jpg" alt="" />
+							</div>
+							<div class="grid__item" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/2.jpg" alt="" />
+							</div>
+							<div class="grid__item" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/3.jpg" alt="" />
+							</div>
+							<div class="grid__item" data-aos="flip-down" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/4.jpg" alt="" />
+							</div>
+							<div class="grid__item" data-aos="flip-right" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/5.jpg" alt="" />
+							</div>
+							<div class="grid__item" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+								<img src="./imgs/grid/6.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- <section class="section">
+					<div class="container">
+						<h2 class="section__title section__title--offset section__title--center section__title--size">
+							Shop by categories
+						</h2>
+						<div class="grid_2">
+							<div class="grid_2__item">
+								<img src="./imgs/grid/1.jpg" alt="" />
+							</div>
+							<div class="grid_2__item">
+								<img src="./imgs/grid/2.jpg" alt="" />
+							</div>
+							<div class="grid_2__item">
+								<img src="./imgs/grid/3.jpg" alt="" />
+							</div>
+							<div class="grid_2__item">
+								<img src="./imgs/grid/4.jpg" alt="" />
+							</div>
+							<div class="grid_2__item">
+								<img src="./imgs/grid/5.jpg" alt="" />
+							</div>
+							<div class="grid_2__item">
+								<img src="./imgs/grid/6.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</section> -->
+				<section class="section section--heroi">
+					<div class="container container--input">
+						<div class="container container_input--title">
+							<h2 class="h2_input">What can us do for you?</h2>
+						</div>
+						<div class="container container_input">
+							<input placeholder="Name" type="text" name="firstname" class="input_1 wow animate__animated animate__rotateInDownLeft">
+							<input placeholder="Email" type="email" name="email" class="input_2 wow animate__animated animate__rotateInDownRight">
+							<input placeholder="Reason for Contacting*" type="text" name="contacting" class="input_3 wow animate__animated animate__rotateInDownLeft">
+							<input placeholder="Phone" type="tel" name="Number" class="input_4 wow animate__animated animate__rotateInDownRight">
+							<textarea placeholder="Message" name="message" id="input_5"></textarea>
+							
+						</div>
+						<div class="container container_input--footer">
+							<p>* indicates a required field</p>
+							<input type="checkbox" id="check"> <label for="check">By sending us this message, you agree to our privacy policy</label>
+						</div>
+						<div class="container container_input--btn">
+						<a class="btn_base btn_base--input">Sumbit</a>
+					</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container container--footer">
+					<a href="#" class="logo">
+						<img loading="lazy" src="./imgs/Logo.svg" alt="" class="logo__img" />
+					</a>
+					<nav class="nav nav--footer">
+						<ul class="nav__list nav__list--footer">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Home </a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> About us</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Careers</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Pricing</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Features</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Blog</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="nav nav--footer">
+						<ul class="nav__list nav__list--footer">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Legal </a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Terms of use</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Terms of conditions</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Privecy policy</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link"> Cookie policy</a>
+							</li>
+						</ul>
+					</nav>
+					<nav class="nav nav--footer_1">
+						<ul class="nav__list nav__list--footer">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Newsletter </a>
+							</li>
+							</ul>
+							<div class="div__item">
+								<h3 class="h3_footer">Over 25000 people have subscribed</h3>
+							</div>
+							<div class="div_item__btn">
+								<div class="div_item__in">
+									<input placeholder="Enter your email" type="search" class="input__footer">
+									<div class="btn_base btn_base--primary btn_base--footer">
+										Subscribe
+									</div>
+								</div>
+							</div>
+							<div class="nav__item">
+								<h3 class="h3_footer h3_footer--two">We don't sell your email and spam</h3>
+							</div>
+					</nav>
+				</div>
+				<div class="container container--footer_2">
+					<div class="container__footer">
+						<a href="#" class="container container--inner_1">Privacy & Terms</a>
+						<a class="container container--inner" href="#">Contact Us</a>
+					</div>
+					<div class="container__footer">
+						<h4 class="container container--inner"><span class="span_footer">Copyright @ 2024 xpence</span></h4>
+					</div>
+					<div class="container__footer">
+						<ul class="ul_footer__social">
+						<li><a class="footer__social footer__social_1" href="#"></a></li>
+						<li><a class="footer__social footer__social_2" href="#"></a></li>
+						<li><a class="footer__social footer__social_3" href="#"></a></li>
+					</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-popup id="popup_1" class="popup">
+			<div data-popup-window class="popup__in">
+				<div data-popup-close class="popup__close"></div>
+				Подивіться кнопку на бургер-меню
+			</div>
+		</div>
+		<div data-popup id="popup_2" class="popup">
+			<div data-popup-window class="popup__in">
+				<div data-popup-close class="popup__close"></div>
+				Наче все вийшло, але чомусь не зміг зробити анімацію на бургер-меню при його відкриванні.
+			</div>
+		</div>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>

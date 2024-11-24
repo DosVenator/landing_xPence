@@ -1,0 +1,38 @@
+/* overview */
+
+.overview {
+	display: block;
+	max-width: 100%;
+	width: 1110px;
+	height: 625px;
+	border-radius: 32px 32px 0 0;
+	overflow: hidden;
+}
+
+.overview__img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+/* overview### */
+
+/* overview 2 */
+
+.overview_2 {
+	display: block;
+	max-width: 100%;
+	width: 1110px;
+	height: 625px;
+	border-radius: 32px 32px 0 0;
+
+	background-image: url(../../imgs/overview_img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: var(--color-accent);
+}
+
+/* overview 2### */
